@@ -19,7 +19,8 @@ jobs:
       - name: Setup Flutter
         uses: subosito/flutter-action@v1
         with:
-          channel: 'master'
+          channel: 'dev'
+          version: '1.26.0-12.0.pre'
       - name: test
         run: flutter --version
       - name: Install Flutter dependencies
