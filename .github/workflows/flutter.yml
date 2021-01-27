@@ -19,7 +19,7 @@ jobs:
       - name: Setup Flutter
         uses: subosito/flutter-action@v1
         with:
-          flutter-version: '1.26.0-13.0.pre.179'
+          flutter-version: '1.26.0-12.0.pre'
           channel: 'master'
       - name: test
         run: flutter --version
